@@ -1,0 +1,100 @@
+body {
+  background: #fafbfc;
+  color: #091e42;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+}
+a {
+  color: #0052cc;
+  text-decoration: none;
+}
+img {
+  width: 20%;
+}
+.template {
+  background: #ffffff;
+  margin: auto;
+  width: 550px;
+  border: 3px;
+  padding-bottom: 30px;
+  border-radius: 4px;
+}
+
+.center {
+  padding-bottom: 30px;
+}
+
+.container {
+  text-align: center;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+
+  height: 176px;
+
+  background: url(" ");
+  justify-content: center;
+  background-size: contain;
+}
+.button {
+  background: #172b4d;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.jsd-message-content {
+  margin-bottom: 30px;
+  margin-top: 10px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.jsd-issue-link {
+  color: #0052cc;
+  text-decoration: none;
+}
+.jsd-unsubscribe-link {
+  color: #0747a6;
+  font-size: 12px;
+  text-decoration: underline;
+}
+.jsd-link-separator {
+  padding: 0 10px;
+}
+.jsd-request-sharedwith {
+  color: #758195;
+  font-size: 12px;
+}
+.jsd-servicedesk-link {
+  color: #707070;
+  font-size: 12px;
+  text-decoration: none;
+}
+/* Applied to reply stripping marker, when incoming email is enabled. */
+.jsd-reply-marker {
+  color: #999999;
+}
+.jsd-reply-marker-hint {
+  color: #999999;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+.jsd-activity-item-separator {
+  border: none;
+  border-bottom: 1px solid #cccccc;
+}
+.footer {
+  border-top: 1px solid #b3b9c4;
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  text-align: center;
+}
