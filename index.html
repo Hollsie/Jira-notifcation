@@ -1,0 +1,46 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Static Template</title>
+  </head>
+  <body>
+    <div class="jsd-reply-marker-hint">
+      Reply above this line.
+    </div>
+    <div class="template">
+      <div class="center">
+        <div class="header"></div>
+
+        <div class="jsd-message-content">
+          ${message.content}
+        </div>
+        <div>
+          <div class="container">
+            <a href="${request.url}" class="button">View request</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <p class="jsd-request-sharedwith">
+          This is shared with ${request.sharedwith}.
+        </p>
+        <p>
+          <a
+            class="jsd-unsubscribe-link"
+            href="${request.disable.notifications.url}"
+            >Turn off this request's notifications</a
+          >
+        </p>
+
+        <p>
+          <a class="jsd-servicedesk-link" href="${atlassian.url}"
+            >Powered by Jira Service Management</a
+          >
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
